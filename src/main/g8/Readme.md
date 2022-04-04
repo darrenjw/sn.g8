@@ -1,6 +1,6 @@
 # $name$
 
-## $description$
+## My scala native project
 
 ```scala
 sbt nativeLink
