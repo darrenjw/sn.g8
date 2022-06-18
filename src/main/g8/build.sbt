@@ -15,7 +15,7 @@ enablePlugins(MdocPlugin)
 
 libraryDependencies  ++= Seq(
   "com.github.scopt" %%% "scopt" % "4.0.1",
-  ("org.typelevel" %%% "cats-core" % "2.7.0").cross(CrossVersion.for3Use2_13)
+  "org.typelevel" %%% "cats-core" % "2.8.0"
 )
 
 resolvers ++= Seq(
