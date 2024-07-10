@@ -13,10 +13,12 @@ enablePlugins(ScalaNativePlugin)
 
 enablePlugins(MdocPlugin)
 
+import scala.scalanative.build.*
+
 libraryDependencies  ++= Seq(
-  "com.github.scopt" %%% "scopt" % "4.0.1",
-  "org.typelevel" %%% "spire" % "0.18.0",
-  "org.typelevel" %%% "cats-core" % "2.8.0"
+  "com.github.scopt" %%% "scopt" % "4.1.0",
+  //"org.typelevel" %%% "spire" % "0.18.0",
+  "org.typelevel" %%% "cats-core" % "2.12.0"
 )
 
 resolvers ++= Seq(
@@ -26,7 +28,7 @@ resolvers ++= Seq(
     "https://oss.sonatype.org/content/repositories/releases/"
 )
 
-scalaVersion := "3.1.0"
+scalaVersion := "3.3.3"
 
 
 // eof
